@@ -1,4 +1,6 @@
 Vendor Performance Analysis
+
+
 This project focuses on evaluating vendor performance through data-driven insights. It involves cleaning and analyzing procurement datasets, identifying top-performing vendors, and visualizing key metrics such as purchase contribution, order frequency, cost efficiency, and inventory trends. The insights generated support strategic procurement decisions and business intelligence initiatives.
 
 🛠 Technologies Used
@@ -8,12 +10,16 @@ Power BI: Interactive dashboards and visualizations
 Excel: Data preprocessing and analysis
 Figma: Dashboard prototyping
 Git/GitHub: Version control
+
+
 📊 Features
 Conduct Exploratory Data Analysis (EDA) on vendor, purchase, and sales datasets
 Identify key risk indicators, such as missed payments and high credit utilization
 Develop interactive dashboards for vendor performance, sales trends, and inventory levels
 Generate actionable insights for procurement optimization and cost reduction
 Enable real-time reporting via Power BI Service
+
+
 📂 Dataset
 The full dataset is hosted on Kaggle due to GitHub size limits.
 
@@ -31,6 +37,8 @@ end_inventory.csv
 purchase_prices.csv
 vendor_invoice.csv
 vendor_sales_summary.csv
+
+
 📁 Project Structure
 Vendor-Performance-Analysis/
 │
@@ -45,6 +53,8 @@ Vendor-Performance-Analysis/
 ├── vendor_Performance.pbix # Power BI dashboard
 ├── inventory.db           # SQLite database
 └── README.md              # Project documentation
+
+
 ⚡ Usage
 Download the dataset from Kaggle (see Dataset section).
 Use scripts/ for Python-based analysis or open vendor_Performance.pbix in Power BI.
